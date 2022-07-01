@@ -19,6 +19,129 @@
     font-size: 13px;
 }
 
+body {
+    background-color: var(--light_grayish_blue);
+}
+
+.container {
+    width: 375px;
+    margin: 50px auto;
+    padding: 25px;
+    display: grid;
+    gap: 25px;
+}
+
+.card {
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.heading img {
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.review {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.quotation {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+
+/* first testimony */
+.card-1 {
+    background-color: var(--moderate_violet);
+}
+
+.card-1 .name,
+.card-1 .review {
+    color: var(--light_gray);
+}
+
+.card-1 .verified {
+    color: rgba(207, 207, 207, 0.5);
+}
+
+.card-1 .quotation {
+    color: rgba(207, 207, 207, 0.7);
+}
+
+
+/* second testimony */
+.card-2 {
+    color: #fff;
+    background-color: var(--very_dark_grayish_blue);
+}
+
+.card-2 .name, .card-2 .review {
+    color: var(--light_gray);
+}
+
+.card-2 .verified {
+    color: rgba(207, 207, 207, 0.5);
+}
+
+.card-2 .quotation {
+    color: rgba(207, 207, 207, 0.7);
+}
+
+
+/* third testimony */
+.card-3, .card-5 {
+    color: var(--very_dark_blackish_blue);
+    background-color: #fff;
+}
+
+.card-3 .name,
+.card-3 .review,
+.card-5 .name,
+.card-5 .review {
+    color: var(--very_dark_blackish_blue);
+}
+
+.card-3 .verified,
+.card-5 .verified {
+    color: rgba(72, 85, 106, 0.5);
+}
+
+.card-3 .quotation,
+.card-5 .quotation {
+    color: rgba(72, 85, 106, 0.7);
+}
+
+
+/* forth testimony */
+.card-4 {
+    color: hsl(219, 29%, 14%);
+    background-color: var(--very_dark_blackish_blue);
+}
+
+.card-4 .name, .card-4 .review {
+    color: var(--light_gray);
+}
+
+.card-4 .verified {
+    color: rgba(207, 207, 207, 0.5);
+}
+
+.card-4 .quotation {
+    color: rgba(207, 207, 207, 0.7);
+}
+
+
 
 
 .attribution {
